@@ -25,7 +25,8 @@ VersionInfoVersion={#MyAppVersion}.0
 VersionInfoProductName={#MyAppName}
 VersionInfoDescription=A股实时分析桌面软件
 
-
+[Languages]
+Name: "chinesesimplified"; MessagesFile: ".\ChineseSimplified.isl"
 [Tasks]
 Name: "desktopicon"; Description: "创建桌面快捷方式"; GroupDescription: "附加选项："; Flags: unchecked
 
