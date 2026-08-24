@@ -1,0 +1,30 @@
+StockScope Windows 安装包构建说明
+=================================
+
+一、创建私有仓库
+1. 打开 GitHub，点击右上角“+”→“New repository”。
+2. Repository name 填：stockscope-build
+3. 选择 Private。
+4. 不要勾选 README、.gitignore 或 License。
+5. 点击 Create repository。
+
+二、上传项目
+1. 解压 StockScope-GitHub-Build-v0.2.zip。
+2. 在新仓库页面点击“uploading an existing file”。
+3. 打开解压后的文件夹，选择里面的全部内容并拖入上传区。
+   注意：必须包含 .github 文件夹；不要把外层文件夹整个套进去。
+4. 等待上传完成，点击 Commit changes。
+
+三、运行 Windows 构建
+1. 打开仓库顶部 Actions。
+2. 左侧选择 Build Windows installer。
+3. 点击 Run workflow，再点击绿色的 Run workflow。
+4. 等待约 5–10 分钟，状态变为绿色对勾。
+
+四、下载安装程序
+1. 点击已经完成的构建记录。
+2. 在页面底部 Artifacts 中点击 StockScope-Windows-Installer。
+3. 解压下载的文件，得到 StockScope-Setup.exe。
+4. 双击 StockScope-Setup.exe 安装。
+
+如果 Actions 页面要求确认，点击“I understand my workflows, go ahead and enable them”。
